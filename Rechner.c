@@ -3,19 +3,16 @@
 int main() {
     int f, e;
 
-    // Benutzereingabe
     printf("Gib die erste ganze Zahl ein: ");
     scanf("%d", &f);
 
     printf("Gib die zweite ganze Zahl ein: ");
     scanf("%d", &e);
-
-    // Berechnungen
+    
     int addieren = f + e;
     int subtrahieren = f - e;
     int multiplizieren = f * e;
 
-    // Division mit Überprüfung auf Division durch Null
     if (e != 0) {
         float dividieren = (float)f / e;
         printf("\nErgebnisse der Berechnungen:\n");
